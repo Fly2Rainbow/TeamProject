@@ -1,0 +1,61 @@
+  * {
+    border:0px solid pink;margin:0;padding:0;list-style:none;text-decoration:none;font-family:"Century Gothic",verdana,Arial,serif;
+  }
+  html {
+    background: url(img/title201.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width:100%;
+  }
+  table {
+    width:100%;
+    border-collapse:collapse;
+  }
+  #table1 {
+    max-width:564px;
+    position:absolute;
+    top:100px;left:250px;
+  }
+
+  #table2 {
+    position: absolute;
+    top:600px;
+  }
+  #th1 {
+    font-size: 50px;
+    font-weight:bold;
+    text-align:left;
+  }
+  #td1 {
+    font-size:40px;
+    padding-top:10px;
+  }
+  #td11 {
+    font:17px "맑은고딕";
+  }
+  #th2 {
+    font:oblique 20px "맑은고딕";
+    background-color: black;
+    color: #fff;
+  }
+  #td2 {
+    font: italic 17px serif;
+    background-color:gray;
+    opacity:0.7;filter:alpha(opacity=70);
+    padding:3px 8px;
+    color:#fff;
+    border-left:8px solid red;
+  }
+  li a {
+    font-size: 14px;
+    font-weight:bold;
+    color:#eee;
+  }
+  li a:hover {color: #333}
+  @media (max-width:800px) {
+    #table1 {
+      width:564px;
+      position:relative;
+      top:0px;left:0px;
+    }
+  }
